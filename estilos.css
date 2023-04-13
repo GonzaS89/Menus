@@ -1,0 +1,42 @@
+.menues{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.menu,.menu2,.menu3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    width: 150px;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(195, 227, 35);
+}
+
+#nombre,#nombre2,#nombre3{
+    font-size: 30px;
+    text-align: center;
+}
+#foto,#foto2,#foto3{
+    filter: brightness(100%);
+}
+#foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#foto2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#foto3 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#descripcion,#descripcion2,#descripcio3{
+    font-size: 15px;
+}
